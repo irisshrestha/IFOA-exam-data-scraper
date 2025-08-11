@@ -1,9 +1,9 @@
-# IFOA-exam-data-scraper
+# IFOA exam data scraper
 Extract IFoA exam pass marks and rates from their examiner reports into a clean CSV.
 
 Final output CSV with information up to April 2025 exams in Outputs/clean_data.csv
 
-Below is further information about the process.
+Below is further information about the code.
 
 --------------------------------------------------------------------------------------------------------------
 This project uses the following python scripts to extract the information.
