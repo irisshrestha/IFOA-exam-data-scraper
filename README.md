@@ -23,12 +23,12 @@ Identify the relevant exanimers report PDFs and extract the pass mark and pass r
   PDFs are identified by searching the first page for the relevant dates and subject names. (Note IFoA sometimes makes and error on thier documents which may require manual editing)
   The information is extracted using regex to find the sentences with the relevant information. (Note IFoA may change this sentence in the future)
 
-In addition there is a check to verify if PDFs for all possible combination of the dates and subjects are found. This can identify any issues in the code process to with the examiners report (eg CM1 April 2020 will give an error as there is no examiners report).
+  In addition there is a check to verify if PDFs for all possible combination of the dates and subjects are found. This can identify any issues in the code process to with the examiners report (eg CM1 April 2020 will give an error as there is no examiners report).
 
-Inputs: File path for PDF, Names of subjects to include, Names of dates to include
-Outputs: 
-raw_data.csv - Includes information from all pdfs identified which fit the criteira. This my include duplicates or errors.
-Initial_data_checks.csv - Check PDFs exist for all date–subject combinations 
+  Inputs: File path for PDF, Names of subjects to include, Names of dates to include
+  Outputs: 
+  raw_data.csv - Includes information from all pdfs identified which fit the criteira. This my include duplicates or errors.
+  Initial_data_checks.csv - Check PDFs exist for all date–subject combinations 
 
 4. **data_cleanse.py**
 Tidy up the raw_data.csv file, including:
