@@ -8,17 +8,17 @@ Below is further information about the code.
 --------------------------------------------------------------------------------------------------------------
 This project uses the following python scripts to extract the information.
 
-1. download_zips.py
+1. **download_zips.py**
 Download all zip files from the IFOA's webpage.
 Inputs: URL of IFoA page.
 Outputs: Downloaded zips
 
-2. unzip.py
+2. **unzip.py**
 Extract all the files within the zips, including the examiners reports
 Inputs: Downloaded zips
 Outputs: Files inside of zips
 
-3. data_from_pdfs.py
+3. **data_from_pdfs.py**
 Identify the relevant exanimers report PDFs and extract the pass mark and pass rate.
   PDFs are identified by searching the first page for the relevant dates and subject names. (Note IFoA sometimes makes and error on thier documents which may require manual editing)
   The information is extracted using regex to find the sentences with the relevant information. (Note IFoA may change this sentence in the future)
@@ -30,7 +30,7 @@ Outputs:
 raw_data.csv - Includes information from all pdfs identified which fit the criteira. This my include duplicates or errors.
 Initial_data_checks.csv - Check PDFs exist for all date–subject combinations 
 
-4. data_cleanse.py
+4. **data_cleanse.py**
 Tidy up the raw_data.csv file, including:
 Manual updates
 Remove duplicates (and check they hold the same value)
@@ -41,7 +41,7 @@ Sort data by subject and date
 Inputs: raw_data.csv, Names of subjects to include, Names of dates to include
 Outputs: clean_data.csv, duplicates_info.csv
 
-5. data_checks.py
+5. **data_checks.py**
 Run checks on the final clean data, including:
 Number of data items as expected
 All subject-date combo included
