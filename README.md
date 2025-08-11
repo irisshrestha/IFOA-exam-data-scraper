@@ -15,7 +15,9 @@ Outputs: Downloaded zips
 
 2. **unzip.py**
 Extract all the files within the zips, including the examiners reports
+
 Inputs: Downloaded zips
+
 Outputs: Files inside of zips
 
 3. **data_from_pdfs.py**
@@ -25,18 +27,22 @@ Identify the relevant exanimers report PDFs and extract the pass mark and pass r
 
   In addition there is a check to verify if PDFs for all possible combination of the dates and subjects are found. This can identify any issues in the code process to with the examiners report (eg CM1 April 2020 will give an error as there is no examiners report).
 
+ 
   Inputs: File path for PDF, Names of subjects to include, Names of dates to include
+  
   Outputs: 
   raw_data.csv - Includes information from all pdfs identified which fit the criteira. This my include duplicates or errors.
+  
   Initial_data_checks.csv - Check PDFs exist for all date–subject combinations 
 
 4. **data_cleanse.py**
 Tidy up the raw_data.csv file, including:
-Manual updates
-Remove duplicates (and check they hold the same value)
-Remove errors
-Correct Date format
-Sort data by subject and date
+
+Manual updates,
+Remove duplicates (and check they hold the same value),
+Remove errors,
+Correct Date format,
+Sort data by subject and date.
 
 Inputs: raw_data.csv, Names of subjects to include, Names of dates to include
 Outputs: clean_data.csv, duplicates_info.csv
