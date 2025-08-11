@@ -91,7 +91,7 @@ for subject in subjects:
 
 # Set up patterns to search using regex
 # The examiners' reports can have random spaces, commas in numbers etc, so need to account for this
-pattern_passmark = re.compile(r"The Pass Mark.*? (\d+)", re.IGNORECASE)
+pattern_passmark = re.compile(r"The.*Pass Mark.*? (\d+)", re.IGNORECASE)
 pattern_numbers = re.compile(r"([\d,]+).*? presented themselves and ([\d,]+).*?passed", re.IGNORECASE)
 
 all_data = []

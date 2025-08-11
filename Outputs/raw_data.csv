@@ -82,15 +82,15 @@
 80,september 2023,cp3,56,1743,1208,0.6930579460699943,pdfs2\IandF_CP3_202309_Examiner Report.pdf
 81,april 2021,cs1,56,1482,779,0.5256410256410257,pdfs2\IandF_CS1 Paper A_202104_Examiners_Report.pdf
 82,april 2021,cs1,56,1482,779,0.5256410256410257,pdfs2\IandF_CS1 Paper B_202104_Examiners_Report.pdf
-83,april 2019,cs1,Error,Error,Error,Error,pdfs2\IandF_CS1A_201904_Examiners_Report.pdf
-84,september 2019,cs1,Error,Error,Error,Error,pdfs2\IandF_CS1A_201909_Examiners_Report.pdf
+83,april 2019,cs1,58,Error,Error,Error,pdfs2\IandF_CS1A_201904_Examiners_Report.pdf
+84,september 2019,cs1,55,Error,Error,Error,pdfs2\IandF_CS1A_201909_Examiners_Report.pdf
 85,september 2020,cs1,60,1189,823,0.6921783010933558,pdfs2\IandF_CS1A_202009_Examiners_Report.pdf
 86,september 2021,cs1,58,1372,578,0.42128279883381925,pdfs2\IandF_CS1A_202109_Examiner Report.pdf
 87,september 2022,cs1,55,1302,539,0.41397849462365593,pdfs2\IandF_CS1A_202209_Examiner Report.pdf
 88,april 2023,cs1,62,1460,746,0.510958904109589,pdfs2\IandF_CS1A_202304_Examiner Report.pdf
 89,september 2023,cs1,60,1508,730,0.48408488063660476,pdfs2\IandF_CS1A_202309_Examiner Report.pdf
-90,april 2019,cs1,Error,Error,Error,Error,pdfs2\IandF_CS1B_201904_Examiners_Report.pdf
-91,september 2019,cs1,Error,Error,Error,Error,pdfs2\IandF_CS1B_201909_Examiners_Report.pdf
+90,april 2019,cs1,58,Error,Error,Error,pdfs2\IandF_CS1B_201904_Examiners_Report.pdf
+91,september 2019,cs1,55,Error,Error,Error,pdfs2\IandF_CS1B_201909_Examiners_Report.pdf
 92,september 2020,cs1,60,1189,823,0.6921783010933558,pdfs2\IandF_CS1B_202009_Examiners_Report.pdf
 93,september 2021,cs1,58,1372,578,0.42128279883381925,pdfs2\IandF_CS1B_202109_Examiner Report.pdf
 94,september 2022,cs1,55,1302,539,0.41397849462365593,pdfs2\IandF_CS1B_202209_Examiner Report.pdf
@@ -99,15 +99,15 @@
 97,april 2022,cs1,59,1311,579,0.4416475972540046,pdfs2\IandF_CS1_Paper A_202204_Examiner Report.pdf
 98,april 2022,cs1,59,1311,579,0.4416475972540046,pdfs2\IandF_CS1_Paper B_202204_Examiner Report.pdf
 99,april 2019,cs2,55,Error,Error,Error,pdfs2\IandF_CS2A_201904_Examiner Report.pdf
-100,september 2019,cs2,Error,Error,Error,Error,pdfs2\IandF_CS2A_201909_Examiners_Report.pdf
-101,september 2020,cs2,Error,1363,476,0.3492296404988995,pdfs2\IandF_CS2A_202009_Examiners_Report.pdf
+100,september 2019,cs2,58,Error,Error,Error,pdfs2\IandF_CS2A_201909_Examiners_Report.pdf
+101,september 2020,cs2,56,1363,476,0.3492296404988995,pdfs2\IandF_CS2A_202009_Examiners_Report.pdf
 102,september 2021,cs2,58,1264,440,0.34810126582278483,pdfs2\IandF_CS2A_202109_Examiner Report.pdf
 103,september 2022,cs2,55,978,195,0.19938650306748465,pdfs2\IandF_CS2A_202209_Examiner Report.pdf
 104,april 2023,cs2,51,1226,376,0.3066884176182708,pdfs2\IandF_CS2A_202304_Examiner Report.pdf
 105,september 2023,cs2,55,993,331,0.3333333333333333,pdfs2\IandF_CS2A_202309_Examiner Report.pdf
 106,april 2019,cs2,55,Error,Error,Error,pdfs2\IandF_CS2B_201904_Examiner Report.pdf
-107,september 2019,cs2,Error,Error,Error,Error,pdfs2\IandF_CS2B_201909_Examiners_Report.pdf
-108,september 2020,cs2,Error,1363,476,0.3492296404988995,pdfs2\IandF_CS2B_202009_Examiners_Report.pdf
+107,september 2019,cs2,58,Error,Error,Error,pdfs2\IandF_CS2B_201909_Examiners_Report.pdf
+108,september 2020,cs2,56,1363,476,0.3492296404988995,pdfs2\IandF_CS2B_202009_Examiners_Report.pdf
 109,september 2021,cs2,58,1264,440,0.34810126582278483,pdfs2\IandF_CS2B_202109_Examiner Report.pdf
 110,september 2022,cs2,55,987,195,0.19756838905775076,pdfs2\IandF_CS2B_202209_Examiner Report.pdf
 111,april 2023,cs2,51,1226,376,0.3066884176182708,pdfs2\IandF_CS2B_202304_Examiner Report.pdf
@@ -246,7 +246,7 @@
 244,april 2019,cp1,58,Error,Error,Error,pdfs2\landF_CP1_Paper2_201904_Examiners'.pdf
 245,april 2020,cp2,60,1097,724,0.6599817684594348,pdfs2\landF_CP2_202004_Examiners'_Report_1.1.pdf
 246,april 2022,cp3,60,1324,791,0.5974320241691843,pdfs2\landF_CP3_202204_Examiner Report.pdf
-247,april 2019,sa2,55,Error,Error,Error,pdfs2\landF_SA2_201904_Examiners'_Report.pdf
+247,april 2019,sa2,54,Error,Error,Error,pdfs2\landF_SA2_201904_Examiners'_Report.pdf
 248,april 2022,sa3,65,368,89,0.2418478260869565,pdfs2\landF_SA3_202204_Examiner Report.pdf
 249,april 2022,sa7,59,96,28,0.2916666666666667,pdfs2\landF_SA7_202204_Examiner Report.pdf
 250,april 2019,sp2,60,Error,Error,Error,pdfs2\landF_SP2_201904_Examiners'_Report.pdf

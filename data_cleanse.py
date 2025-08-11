@@ -8,6 +8,7 @@ raw_data = pd.read_csv("Outputs/raw_data.csv")
 subjects_csv = pd.read_csv("Inputs/subjects.csv", header=0)
 dates_csv = pd.read_csv("Inputs/dates.csv", header=0)
 
+
 # Remove first row, which is just index
 raw_data = raw_data.iloc[:, 1:]
 print(raw_data.head())
@@ -77,11 +78,11 @@ sorted_data = clean_data.sort_values(by=["Subject", "Date"], ascending=[True, Tr
 
 # Covert errors into NaNs
 columns = ["Pass Mark", "Candidates Entered", "Candidates Passed", "Pass Rate"]
-clean_data[columns] = clean_data[columns].apply(pd.to_numeric, errors="coerce")
+sorted_data[columns] = sorted_data[columns].apply(pd.to_numeric, errors="coerce")
 
 
 # -------- Print final data to CSV --------------------------------
-clean_data.to_csv('Outputs/clean_data.csv')
+sorted_data.to_csv('Outputs/clean_data.csv')
 
 df_duplicates = pd.DataFrame(duplicates_info)
 df_duplicates.to_csv('Outputs/duplicates_info.csv')
