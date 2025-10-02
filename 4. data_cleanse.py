@@ -85,4 +85,5 @@ sorted_data[columns] = sorted_data[columns].apply(pd.to_numeric, errors="coerce"
 sorted_data.to_csv('Outputs/clean_data.csv')
 
 df_duplicates = pd.DataFrame(duplicates_info)
+
 df_duplicates.to_csv('Outputs/duplicates_info.csv')
