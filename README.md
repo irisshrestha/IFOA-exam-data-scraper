@@ -54,5 +54,5 @@ Run checks on the final clean data, including:
     Min/Max values
 
     - Inputs: clean_data.csv, Names of subjects to include, Names of dates to include
-    - Outputs: Print any identified error
+    - Outputs: Any identified error
    
